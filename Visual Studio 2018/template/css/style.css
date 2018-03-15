@@ -1,0 +1,611 @@
+﻿body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+#footer {
+    margin-left: auto;
+}
+
+.extra {
+    margin-left: 20px;
+}
+
+.carsousel-inner > .item > img { /*this is for css for the carsousel css for the default page*/
+    width: 1200px;
+    height: 820px;
+    margin: auto;
+}
+
+.glyphicon gliphicon-chevron-left { /*the size of the left side arrow for carsousel*/
+    font-size:32px;
+    line-height: 26px;
+    color: black;
+}
+
+#my-slider { /*this is the css for the middle of slides for carsousel*/
+    width: 1200px;
+    margin-left: 380px;
+}
+
+.space-ten {
+    padding: 5px 0;
+}
+
+.formLayoutContainer {  /*size of the carsousel form*/ 
+    max-width: 630px;
+    padding-top: 30px;
+}
+
+.layoutGroupBoxCaption {
+    font-size: 16px;
+}
+
+.firstNamePadding {
+    padding-bottom: 5px;
+}
+
+.maxWidth {
+    width: 200px !important;
+}
+
+@media(max-width:500px) {
+    .maxWidth {
+    width: 100% !important;
+    }
+}
+
+@media(min-width:610px) {
+    .content {
+    display: table-cell;
+    }
+
+    .firstNamePadding {
+    padding-bottom: 0;
+    }
+}
+
+@media(max-width:500px) {
+    .caption {
+    width: 0 !important;
+    min-width: 0 !important;
+    }
+
+    .mobileAlign {
+    text-align: center !important;
+    width: auto !important;
+    }
+
+    .mobileAlign > table, .mobileAlign > div {
+    margin-left: auto;
+    margin-right: auto;
+    }
+}
+
+#wrapper {
+    width: 350px;
+    height: 50px;
+    margin: 50px;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    font-family: entypo;
+    color: #212121;
+    background: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    display: block;
+    cursor: pointer;
+    margin: 10px;
+    transition: 1s;
+}
+
+.box:hover {
+    color: #fff;
+    transform: scale(1.15);
+    transition: 1s;
+
+}
+
+.lb1itemsContainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+}
+element.style {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+
+.auto-style1 {
+    width: 66%;
+}
+
+.auto-style2 {
+    height: 20px;
+}
+
+.auto-style3 {
+    width: 242px;
+}
+
+.auto-style4 {
+    height: 20px;
+    width: 242px;
+}
+
+.auto-style5 {
+    width: 242px;
+    height: 22px;
+}
+
+.auto-style6 {
+    height: 22px;
+}
+
+.auto-style2 {
+    width: 100%;
+}
+
+.auto-style3 {
+    width: 297px;
+    text-align: right;
+}
+
+.auto-style4 {
+    width: 297px;
+    text-align: right;
+    height: 49px;
+}
+
+.auto-style5 {
+    height: 49px;
+}
+
+.auto-style6 {
+    height: 49px;
+    width: 487px;
+}
+
+.auto-style7 {
+    width: 243px;
+}
+
+.auto-style8 {
+    width: 297px;
+    text-align: center;
+    height: 38px;
+}
+
+.auto-style9 {
+    width: 243px;
+    height: 38px;
+}
+
+.auto-style11 {
+    width: 275px;
+    height: 207px;
+    text-align: center;
+}
+
+.auto-style12 {
+    margin-left: 12px;
+    margin-right: 7px;
+    margin-bottom: 0px;
+}
+
+.auto-style15 {
+    height: 49px;
+    width: 243px;
+}
+
+.auto-style16 {
+    height: 49px;
+    width: 771px;
+}
+
+.auto-style17 {
+    width: 771px;
+    height: 38px;
+}
+
+        
+.auto-style18 {
+    width: 771px;
+}
+
+ .auto-style4 { /*//this is this the css for one of the styles in the default page.*/
+    width: 920px;
+    height: 683px;
+    margin-right: 0px;
+}
+
+ .auto-style1 { /*this is where the css startrs for the register page*/
+    width: 801px;
+    height: 497px;
+}
+
+.auto-style2 {
+    width: 250px;
+}
+
+.auto-style3 {
+    width: 414px;
+}
+
+.auto-style4 {
+    width: 298px;
+}
+
+.auto-style19 {
+    height: 61px;
+    width: 250px;
+}
+
+.auto-style20 {
+    height: 61px;
+    width: 298px;
+    text-align: right;
+    margin-right: 0px;
+}
+
+.auto-style21 {
+    width: 414px;
+    text-align: right;
+    height: 61px;
+}
+
+.auto-style22 {
+    height: 60px;
+    width: 250px;
+}
+
+.auto-style23 {
+    height: 60px;
+    width: 298px;
+    text-align: right;
+    margin-right: 0px;
+}
+
+.auto-style24 {
+    width: 414px;
+    text-align: right;
+    height: 60px;
+}
+
+.auto-style25 {
+    height: 58px;
+    width: 250px;
+}
+
+.auto-style26 {
+    height: 58px;
+    width: 298px;
+    text-align: right;
+    margin-right: 0px;
+}
+
+.auto-style27 {
+    width: 414px;
+    text-align: right;
+    height: 58px;
+}
+
+.auto-style28 {
+    height: 59px;
+    width: 250px;
+}
+
+.auto-style29 {
+    height: 59px;
+    width: 298px;
+    text-align: right;
+    margin-right: 0px;
+}
+
+.auto-style30 {
+    width: 414px;
+    text-align: right;
+    height: 59px;
+}
+
+.auto-style31 {
+    height: 61px;
+    width: 298px;
+    text-align: center;
+    margin-right: 0px;
+}
+
+.auto-style32 {
+    height: 60px;
+    width: 298px;
+    text-align: center;
+    margin-right: 0px;
+}
+
+.auto-style33 {
+    height: 58px;
+    width: 298px;
+    text-align: center;
+    margin-right: 0px;
+}
+
+.auto-style34 {
+    height: 59px;
+    width: 298px;
+    text-align: center;
+    margin-right: 0px;
+}
+
+.auto-style35 {
+    width: 801px;
+    height: 581px;
+}
+
+.auto-style36 {
+    height: 59px;
+    width: 250px;
+}
+
+.auto-style37 {
+    width: 414px;
+    text-align: right;
+    height: 59px;
+}
+
+      .auto-style45 {
+            height: 50px;
+            width: 215px;
+        }
+        .auto-style46 {
+            height: 50px;
+            width: 830px;
+            text-align: center;
+            margin-right: 0px;
+        }
+        .auto-style47 {
+            width: 597px;
+            text-align: right;
+            height: 50px;
+        }
+        .auto-style48 {
+            width: 844px;
+            height: 38px;
+            text-align: center;
+        }
+        .auto-style49 {
+            height: 60px;
+            width: 215px;
+            text-align: center;
+            margin-right: 0px;
+        }
+        .auto-style50 {
+            height: 61px;
+            width: 298px;
+            text-align: center;
+            this: 60px;
+            margin-right: 0px;
+        }
+
+.auto-style7 { /*this is the css for the place order page*/
+    width: 53%;
+    height: 72px;
+}
+
+.auto-style8 {
+    height: 39px;
+    width: 230px;
+}
+
+.auto-style9 {
+    width: 230px;
+    text-align: center;
+}
+
+.auto-style10 {
+    height: 39px;
+}
+
+.auto-style11 {
+    width: 76%;
+    height: 166px;
+}
+
+.auto-style12 {
+    width: 202px;
+}
+
+.auto-style31 {
+            width: 170px;
+            margin-left: 12px;
+            margin-right: 7px;
+            margin-bottom: 0px;
+        }
+        .auto-style32 {
+            width: 170px;
+            height: 115px;
+            margin-left: 12px;
+            margin-right: 7px;
+            margin-bottom: 0px;
+        }
+        .auto-style33 {
+            height: 115px;
+            width: 536px;
+        }
+        .auto-style34 {
+            width: 536px
+        }
+        .auto-style35 {
+            width: 50%;
+            height: 166px;
+            text-align: center;
+        }
+        .auto-style38 {
+            height: 60px;
+            width: 300px;
+            text-align: center;
+            margin-right: 0px;
+        }
+        .auto-style39 {
+            height: 60px;
+            width: 300px;
+            text-align: center;
+            margin-right: 0px;
+        }
+    .auto-style40 {
+        max-width: 400px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+.buttoncontainer{ /*place order button*/
+    margin: 0 auto;
+    max-width: 200px;
+}
+
+.checkouttext { /*checkout title*/
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.loginfeilds{
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.auto-style31 { /*this is the css for login page*/ 
+    height: 60px;
+    width: 298px;
+    text-align: center;
+    margin-right: 0px;
+}
+
+.auto-style32 {
+            height: 60px;
+            width: 215px;
+        }
+        .auto-style33 {
+            height: 60px;
+            width: 830px;
+        }
+        .auto-style34 {
+            width: 830px;
+            height: 38px;
+        }
+        .auto-style35 {
+            width: 215px;
+            height: 38px;
+            text-align: center;
+        }
+        .auto-style36 {
+            width: 215px;
+            height: 72px;
+        }
+        .auto-style37 {
+            height: 259px;
+            width: 597px;
+        }
+        .auto-style38 {
+            width: 414px;
+            text-align: center;
+        }
+        .auto-style39 {
+            width: 230px;
+            text-align: center;
+            height: 70px;
+        }
+        .auto-style40 {
+            width: 801px;
+            height: 70px;
+            text-align: center;
+        }
+        .auto-style41 {
+            height: 70px;
+            width: 298px;
+            text-align: center;
+            margin-right: 0px;
+        }
+           .auto-style42 {
+            height: 60px;
+            width: 1257px;
+            text-align: center;
+            margin-right: 0px;
+        }
+        .auto-style43 {
+            width: 1257px;
+            height: 70px;
+            text-align: center;
+        }
+        .auto-style44 {
+            height: 72px;
+            width: 1257px;
+        }
+
+.chceckoutbutton { /*this is the checkout button*/
+    margin: 0 auto;
+    max-width: 200px;
+    text-align: center;
+ }
+
+   .auto-style51 { /*this is for the placed succesfful page*/
+            font-size: x-large;
+        }
+
+   .auto-style52 { /*this is for the woman dresses page*/
+            height: 51px;
+            width: 155px;
+            text-align: center;
+            margin-right: 0px;
+        }
+        .auto-style55 {
+            height: 51px;
+            width: 491px;
+        }
+        .auto-style56 {
+            width: 155px;
+            text-align: right;
+            height: 61px;
+        }
+        .auto-style57 {
+            height: 61px;
+            width: 491px;
+        }
+        .auto-style59 {
+            width: 444px;
+            height: 291px;
+        }
+        .auto-style60 {
+            height: 51px;
+            width: 155px;
+            text-align: center;
+        }
+        .auto-style61 {
+            height: 51px;
+            width: 491px;
+            text-align: left;
+        }
+        .auto-style62 {
+            height: 52px;
+            width: 155px;
+            text-align: center;
+        }
+        .auto-style63 {
+            height: 52px;
+            width: 491px;
+        }
